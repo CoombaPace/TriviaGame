@@ -1,0 +1,158 @@
+
+body {
+	background: content-box;
+	font-family: 'ZCOOL QingKe HuangYou', cursive; 
+
+}
+
+#jumbo1 {
+	background: content-box;
+	max-height: 50%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding-top: 300px;
+    padding-bottom: 200px;
+    width: 100%;
+}
+
+h1 {
+	font-size: 50px;
+	margin-left: auto;
+    margin-right: auto;
+	color: black;
+    letter-spacing: 8px;
+    /* font-family: 'ZCOOL QingKe HuangYou', cursive;  */
+}
+
+h2 {
+	font-size: 45px;
+	color: black;
+	/* font-family: 'ZCOOL QingKe HuangYou', cursive; */
+	margin-left: auto;
+    margin-right: auto;
+
+}
+
+#startGame {
+	background-color: rgba(0, 0, 0, 0.01);
+}
+
+#startBtn {
+	padding: 1px 17px 1px 17px;
+	font-size: 30px;
+	background-color: blueviolet;
+	border-color: #000;
+	color: #111;
+	/* font-family: 'ZCOOL QingKe HuangYou', cursive; */
+	letter-spacing: 8px;
+}
+
+#startBtn:hover {
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+	-moz-animation: glow 1s ease-in-out infinite alternate;
+	animation: glow 1s ease-in-out infinite alternate;
+	color: #def;
+}
+
+#gameDiv {
+    background: content-box;
+}
+
+.giphy {
+	width:75%;
+	height:auto;
+}
+
+#quest {
+    /* font-family: 'ZCOOL QingKe HuangYou', cursive; */
+}
+
+#tickTock {
+	font-size: 40px;
+	color: #def;
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+	-moz-animation: glow 1s ease-in-out infinite alternate;
+	animation: glow 1s ease-in-out infinite alternate;
+}
+.question {
+	color: white;
+	font-size: 45px;
+	-webkit-text-stroke: 2px black;
+}
+
+.choice {
+	font-size: 40px;
+	color: black;
+	line-height: 50px;
+}
+
+.choice:hover {
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+	-moz-animation: glow 1s ease-in-out infinite alternate;
+	animation: glow 1s ease-in-out infinite alternate;
+}
+
+#answer {
+    /* font-family: 'ZCOOL QingKe HuangYou', cursive; */
+}
+#correctAns {
+color: black;
+font-size: 40px;
+}
+
+#text {
+color: black;
+font-size: 40px;
+
+}
+.factoid {
+	color: white;
+	font-size: 40px;
+	-webkit-text-stroke: 2px black;
+}
+
+#result {
+	color: black;
+	font-size: 40px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+#resultText {
+	color: white;
+	font-size: 45px;
+	-webkit-text-stroke: 2px black;
+}
+
+#resetBtn {
+	padding:12px 40px 12px 40px;
+	font-size: 40px;
+	background-color: blueviolet;
+	border-color: #000;
+	color: #def;
+	/* font-family: 'ZCOOL QingKe HuangYou', cursive; */
+	letter-spacing: 4px;
+}
+
+#resetBtn:hover {
+	background-color: blueviolet;
+	color: black;
+	cursor: pointer;
+}
+
+.glow {
+	color: #fff;
+	text-align: center;
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+	-moz-animation: glow 1s ease-in-out infinite alternate;
+	animation: glow 1s ease-in-out infinite alternate;
+	}
+	
+@-webkit-keyframes glow {
+from {
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+to {
+	text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+}
+}

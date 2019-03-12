@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+	
+	<title>Voltron Super Nerd Trivia</title>
+</head>
+
+<body>
+
+	<!-- Jumboron to create head space -->
+	<div class="jumbotron col-md-12" id="jumbo1">
+	</div>
+
+	<div class="container col-md-12">
+		
+		<div class="row text-center">
+			<h1>LEGENDARY DEFENDER VOLTRON TRIVIA</h1>
+		</div>
+
+		<div class="row text-center">
+			<h2>Super Nerd Edition</h2>
+		</div>
+
+		<div class="jumbotron text-center" id="startGame">
+			<button id="startBtn">START</button>
+		</div>
+
+		<div class="jumbotron text-center" id="gameDiv">
+			<!-- Questions -->
+			<div class="container" id="quest">
+				<div id="tickTock"></div>
+				<div class="question"></div><br>
+				<div class="choices"></div>
+			</div>
+			<!-- Answers -->
+			<div class="container" id="answer">
+				<div id="text"></div>
+				<div id="correctAns"></div>
+				<div id="gif"></div><br>
+				<div id="gifText"></div>
+			</div>
+			<!-- Results -->
+			<div class="container" id="result">
+				<div id="resultText"></div>
+				<div id="correctAnswers"></div>
+				<div id="wrongAnswers"></div>
+				<div id="unanswered"></div><br>
+				<button id="resetBtn"></button>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="assets/javascript/app.js"></script>
+<script type="text/javascript" src="assets/javascript/backstretch.js"></script>
+
+<!-- Rotating Full Screen Background Images -->
+<script type="text/javascript">
+	$(document).ready(function() {
+		$.backstretch(['assets/images/blackLion.jpeg', 'assets/images/redLionBG.jpg', 'assets/images/blueLion.jpg', 'assets/images/yellowLionBG.jpg', 'assets/images/greenLion.jpg', 'assets/images/blackLionBG.jpg', 'assets/images/voltron.jpg', 'assets/images/paladins.jpeg', 'assets/images/allura.jpg', 'assets/images/keith.jpg', 'assets/images/pidge.jpg', 'assets/images/shiro.jpg', 'assets/images/hunk.jpg', 'assets/images/lance.jpg', 'assets/images/coran.jpg'], {
+			duration: 10000,
+			fade: 900
+		});
+	});
+	</script>
+
+</body>
+</html>
